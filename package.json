@@ -1,0 +1,57 @@
+{
+  "name": "jewelry",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.1",
+    "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.2",
+    "jwt-simple": "^0.5.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.17.2",
+    "normalizr": "^3.2.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.0",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.70.0",
+    "styled-components": "^1.4.5",
+    "styled-media-query": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "react-scripts": "0.9.5",
+    "redux-devtools": "^3.4.0"
+  },
+  "scripts": {
+    "server": "babel-node server/index.js",
+    "mongo": "cd C:\\Program Files\\MongoDB\\Server\\3.4\\bin && mongod.exe",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
